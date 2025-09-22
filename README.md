@@ -1,1 +1,219 @@
-# Bem-estar
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oficina para promover o bem-estar digital e a saúde mental de estudantes em tempos de hiperconectividade.">
+    <title>Oficina de Bem-Estar Digital</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 960px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+
+        /* Cabeçalho e Navegação */
+        header {
+            background: #FFC107; /* Amarelo principal */
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            border-bottom: 5px solid #FFB300;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-top: 5px;
+        }
+
+        /* Seções */
+        section {
+            padding: 40px 20px;
+            margin: 20px 0;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #FFB300; /* Amarelo escuro para títulos de seção */
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+
+        /* Impactos e Listas */
+        .impact-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .impact-list li {
+            background: #FFF9C4; /* Amarelo bem claro */
+            padding: 15px;
+            margin-bottom: 10px;
+            border-left: 5px solid #FFC107;
+            border-radius: 5px;
+        }
+
+        .impact-list li strong {
+            color: #333;
+        }
+
+        /* Ferramentas */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .tool-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .tool-card h3 {
+            color: #FF6F00; /* Laranja/Amarelo escuro */
+            margin-top: 0;
+        }
+
+        .tool-card ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .tool-card li {
+            margin-bottom: 8px;
+        }
+
+        /* Destaques e Citações */
+        .highlight {
+            background-color: #FFECB3; /* Amarelo claro */
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.1rem;
+            border-left: 5px solid #FFB300;
+        }
+        
+        .highlight strong {
+            display: block;
+            font-size: 1.5rem;
+            color: #FF6F00;
+        }
+
+        /* Encerramento */
+        .engagement-box {
+            background: #333;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .engagement-box p {
+            font-style: italic;
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #777;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Oficina de Bem-Estar Digital</h1>
+            <p>Equilíbrio na Era da Conectividade: Uma iniciativa para promover a saúde mental.</p>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section id="introducao">
+            <h2>Navegando no Mundo Digital com Consciência</h2>
+            <p>Vivemos em uma era em que a tecnologia está presente em quase todas as esferas da vida humana. Entre os jovens, especialmente estudantes de cursos técnicos, o tempo gasto em frente às telas é significativo. Se por um lado ela oferece acesso rápido a informações, oportunidades de estudo e lazer, por outro, seu uso excessivo pode afetar o bem-estar físico, emocional e social. A Oficina de Bem-Estar Digital busca orientar os alunos a encontrarem um equilíbrio saudável entre vida acadêmica, trabalho e lazer, utilizando ferramentas digitais de maneira consciente e produtiva.</p>
+        </section>
+
+        <section id="impactos">
+            <h2>Os Impactos do Uso Excessivo da Tecnologia</h2>
+            <p>O uso desregulado de celulares e computadores está associado a problemas de saúde mental e física. Pesquisas apontam que a hiperconectividade pode gerar quadros de ansiedade e diminuir a qualidade do sono, além da constante exposição a notificações reduzir a capacidade de foco e concentração.</p>
+            <ul class="impact-list">
+                <li><strong>Ansiedade:</strong> excesso de informações e comparações sociais intensificam o estresse.</li>
+                <li><strong>Insônia:</strong> a luz azul das telas reduz a produção de melatonina, dificultando o sono.</li>
+                <li><strong>Distração:</strong> múltiplas notificações comprometem o desempenho acadêmico.</li>
+                <li><strong>Sedentarismo:</strong> longos períodos de uso diminuem a prática de atividades físicas.</li>
+                <li><strong>Isolamento social:</strong> interações virtuais substituem contatos presenciais.</li>
+            </ul>
+        </section>
+
+        <section id="ferramentas">
+            <h2>Ferramentas para uma Vida Digital mais Saudável</h2>
+            <p>As ferramentas apresentadas na oficina visam transformar a relação dos alunos com a tecnologia, aprendendo a usar aplicativos e técnicas para melhorar sua produtividade, saúde mental e qualidade de vida.</p>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>Produtividade e Organização</h3>
+                    <p>Aplicativos como Google Keep, Notion e Trello permitem organizar tarefas de forma prática. Aliados à técnica Pomodoro, ajudam a reduzir a procrastinação.</p>
+                    <div class="highlight">
+                        <strong>Até 20%</strong>
+                        de aumento no desempenho acadêmico de estudantes que adotam essas práticas.
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <h3>Relaxamento e Mindfulness</h3>
+                    <p>Mindfulness é uma prática de atenção plena que melhora a concentração e reduz o estresse. Use apps como Headspace, Lojong, Insight Timer ou sons ambientes com Noisli.</p>
+                    <div class="highlight">
+                        Exercícios de respiração de apenas <strong>5 minutos</strong> já reduzem significativamente a pressão arterial e a ansiedade.
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <h3>Desintoxicação Digital</h3>
+                    <p>Consiste em períodos planejados de afastamento das telas. Ative o modo 'Não Perturbe' e defina limites de tempo em aplicativos para uma rotina eficaz.</p>
+                    <div class="highlight">
+                        Melhora de até <strong>30%</strong>
+                        na qualidade do sono ao desligar eletrônicos uma hora antes de dormir.
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="dinamica">
+            <h2>Dinâmica em Grupo: Mural Digital do Equilíbrio</h2>
+            <p>A dinâmica em grupo tem como objetivo promover a interação entre os alunos e estimular a troca de experiências. Cada participante contribui com uma dica pessoal de como relaxa ou cuida da mente sem recorrer às redes sociais. Esse exercício fortalece o senso de comunidade e encoraja práticas alternativas de autocuidado.</p>
+        </section>
+
+        <section id="encerramento">
+            <h2>Conscientização: Setembro Amarelo</h2>
+            <p>A etapa final reforça a importância da campanha Setembro Amarelo, voltada à prevenção do suicídio e valorização da vida. Esperamos que as ferramentas e práticas que discutimos ao longo da oficina ajudem você a equilibrar sua vida digital de maneira saudável e produtiva. O bem-estar mental e emocional é essencial para o sucesso acadêmico, e encontrar formas de gerenciar o uso da tecnologia é um passo importante para garantir sua saúde a longo prazo.
+
+            
